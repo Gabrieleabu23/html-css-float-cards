@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    width: 70%;
+    margin: auto;
+}
+header{
+    margin-top: 40px;
+    text-align: center;
+}
+main{
+    margin-top: 40px;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    /* width: calc(100%/ 3); */
+}
+.col{
+    margin-right: 20px;
+    padding-right: 30px;
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}
+.col .text{
+    flex-direction: column;
+    margin-left: 15px;
+}
+.col img{
+    /* vertical-align: middle; */
+    height: 100px;
+}
+
